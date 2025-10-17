@@ -1,5 +1,5 @@
 // Typing Effect
-const text = ["Frontend Developer", "Web Designer", "Coder"];
+const text = ["Frontend Developer", "Web Designer", "Coder","Video Editor"];
 let index = 0;
 let charIndex = 0;
 let currentText = "";
@@ -42,3 +42,4 @@ function revealOnScroll() {
 
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll(); // run once
+
